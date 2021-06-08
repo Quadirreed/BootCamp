@@ -53,4 +53,4 @@ Note: You may share ideas among peers as long as you cite all sources accordingl
 
 Methods of Assessment
 Homework will be graded based upon the following rubric:
-![](images/Homework_Rubric.png)
+![](Homework_Rubric.png)
