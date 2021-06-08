@@ -1,22 +1,24 @@
-Activity File: Assessing Threats
+## Activity File: Assessing Threats
 
+- To an experienced cybersecurity professional, threats exist everywhere, even in the most common technologies. 
 
-To an experienced cybersecurity professional, threats exist everywhere, even in the most common technologies.
+- In this activity, you will work in groups to evaluate the potential threats posed by various technologies. 
 
+### Scenario: A Wild USB Appears!
 
-In this activity, you will work in groups to evaluate the potential threats posed by various technologies.
+Suppose you found a USB drive laying on the ground. How much of a threat could that _really_ be?
 
+In groups, consider the following scenario and questions: 
 
-
-Scenario: A Wild USB Appears!
-Suppose you found a USB drive laying on the ground. How much of a threat could that really be?
-In groups, consider the following scenario and questions:
 When plugged into a computer, the USB drive immediately executes running code.
+- How is a USB drive able to do this?
+- Why can't our computer stop the drive from running?
+- How might we defend against USBs like this?
 
-How is a USB drive able to do this?
-Why can't our computer stop the drive from running?
-How might we defend against USBs like this?
 
-Be prepared to share your answers.
+Be prepared to share your answers. 
 
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+---
+
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.    
