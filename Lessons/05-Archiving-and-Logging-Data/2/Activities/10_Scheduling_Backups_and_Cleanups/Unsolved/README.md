@@ -1,4 +1,3 @@
-
 ## Activity File: Scheduling Backups and Cleanups
 
 In this exercise, you remain in your role as a junior administrator at Rezifp Pharma Inc. 
