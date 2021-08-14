@@ -14,8 +14,8 @@
 
 ### Files Required 
 
--  [Darkside pcap](resources/Darkside.pcap)
--  [Galaxy Network Map](resources/Galaxy_Network_map.png)
+-  [Darkside pcap](Resources/Darkside.pcap)
+-  [Galaxy Network Map](Resources/Galaxy_Network_map.png)
 
 
 ### Your Objectives: 
