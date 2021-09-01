@@ -251,14 +251,14 @@ Explain that the Azure Portal is intuitive and easy to use. The easiest way to f
 
     ![](../1/Images/ResourceGroups/Search-resource.png)
 
-- Select **Resource groups** in the search results and point out the **+ Add** button at the top.
+- Select **Resource groups** in the search results and point out the **+ Create ** button at the top.
 
 Explain that not all regions will have available well-priced VMs and students may need to change the region as they add resources.
   - Use the default region that will show automatically for your location. In our examples we are using US West.
 
 - Explain that every resource the students create will have this button at the top.
 
-    ![](../1/Images/ResourceGroups/ResourceGroupsInfo.png)
+    ![a](../1/Images/ResourceGroupsInfo1.png)
 
 
 Now that we have a resource group, we can add a virtual network.
@@ -358,9 +358,9 @@ Use the Azure portal to create a resource group that will contain everything the
 
     ![](Images/resource_group/search_resource.png)
 
-- Click on the **+ Add** button or the **Create resource group** button.
+- Click on the **+ Create** button or the **Create resource group** button.
 
-    ![](Images/resource_group/add_resource.png)
+    ![a](../1/Images/ResourceGroupsInfo1.png)
 
 - Create a name for your resource group and choose a region.
 
@@ -389,9 +389,9 @@ Before you can deploy servers and services, there must be a network where these 
 
     ![](Images/virtual_net/search_network.png)
 
-- Click on the **+ Add** button on the top-left of the page or the **Create virtual network** button on the bottom of the page.
+- Click on the **+ Create** button on the top-left of the page or the **Create virtual network** button on the bottom of the page.
 
-    ![](Images/virtual_net/add_network.png)
+    ![](Images/add_network1.png)
 
 Fill in the network settings:
 
@@ -405,7 +405,7 @@ Fill in the network settings:
 
 :warning: **Heads Up**: Carefully configuring the region of your resources is important for ensuring low latency and high availability. Resources should be located as close as possible to those who will be consuming them. Each time a resource is created, choose the same region.
 
-![](Activities/04_Virtual_Networking/Solved/Images/virtual_net/vNet1.png)
+![](Activities/04_Virtual_Networking/Solved/Images/vNet1.png)
 
 - IP Addresses: Azure requires you to define a network and subnet.
 
@@ -490,7 +490,7 @@ Begin by completing the following:
 
 - Open your Azure portal and search for "Network security group."
 
-- Use the **+ Add** button to add a network security group.
+- Use the **+ Create** button to add a network security group.
 
 - Name the group something memorable.
 
@@ -528,10 +528,11 @@ Create a rule using the following settings:
 - Destination: We can choose between Any, IP address(s), VirtualNetwork, or an application security group. We'll choose **VirtualNetwork**.
 	- Note that _if_ you wanted to send traffic to a specific machine, you would enter it's _internal_ IP address here.
 
-- Destination Port Ranges: RDP uses port `3389`, so we will specify this port.
+- Service: We can choose the protocol RDP
 
-- Protocol: We can choose TCP, UDP, ICMP or Any to block RDP. In the image above, **Any** was chosen.
-	- RDP listens using both UDP and TCP, so 'Any' is the best option here.
+- Destination Port Ranges: RDP uses port `3389`, so this will automatically be selected.
+
+- Protocol: We can choose TCP, UDP, ICMP. In the image above, **TCP** was automatically chosen when we selected RDP.
 
 - Action: Firewall rules are either denying traffic or allowing traffic. Here, we are going to choose **Allow**.
 
@@ -539,7 +540,7 @@ Create a rule using the following settings:
 
 - Name/Description: You can name a rule whatever you like, but it is a best practice to name it what it is and describe what it does. Here, we will name it "Allow-RDP" and add the description: "Allow RDP from external IP over port 3389."
 
-![](../1/Images/Security-Group-Demo/Security-Group-Rule.png)
+![](../1/Images/Security-Group-Rule1.png)
 
 **Note:** The external IP is not shown in the screen shot.
 
@@ -620,6 +621,8 @@ Configure the inbound rule and explain the following:
 
 - Destination: Here, we will select **Any** to block any and all traffic associated with this security group.
 
+- Service: Here we will leave this as **Custom** as we are going to select all port ranges in the next configuration.
+
 - Destination port ranges: Usually we would specify a specific port or a range of ports for the destination. In this case, we can use the wildcard (*) to block all destination ports. You could also block all ports using a range like `0-65535`.
 
 - Protocol: We will choose to block **Any** protocol that is used.
@@ -632,7 +635,7 @@ Configure the inbound rule and explain the following:
 
 - Description: Write a quick description similar to "Deny all inbound traffic."
 
-    ![](Images/security_groups/inbound_rule_settings.png)
+    ![](Images/inbound_rule_settings1.png)
 
 - Save the rule.
 

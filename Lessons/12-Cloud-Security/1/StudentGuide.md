@@ -177,12 +177,12 @@ The Azure Portal is intuitive and easy to use. The easiest way to find what you 
 
     ![](../1/Images/ResourceGroups/Search-resource.png)
 
-- Select **Resource groups** in the search results and note the **+ Add** button at the top.
+- Select **Resource groups** in the search results and note the **+ Create** button at the top.
   - Not all regions will have available well-priced VMs and students may need to change the region as they add resources.
   - Use the default region that will show automatically for your location. In our examples we are using US West.
 - Every resource that you create will have this button at the top.
 
-    ![](../1/Images/ResourceGroups/ResourceGroupsInfo.png)
+    ![](../1/Images/ResourceGroups/ResourceGroupsInfo1.png)
 
 
 Now that we have a resource group, we can add a virtual network.
@@ -267,7 +267,7 @@ Begin by completing the following:
 
 - Open your Azure portal and search for "Network security group."
 
-- Use the **+ Add** button to add a network security group.
+- Use the **+ Create** button to add a network security group.
 
 - Name the group something memorable.
 
@@ -306,10 +306,11 @@ Create a rule using the following settings:
 - Destination: We can choose between Any, IP address(s), VirtualNetwork, or an application security group. We'll choose **VirtualNetwork**.
 	- Note that _if_ you wanted to send traffic to a specific machine, you would enter its _internal_ IP address here.
 
-- Destination Port Ranges: RDP uses port `3389`, so we will specify this port.
+- Service: We can choose the protocol RDP
 
-- Protocol: We can choose TCP, UDP, ICMP or Any to block RDP. In the image above, **Any** was chose.
-  - RDP listens using both UDP and TCP, so 'Any' is the best option here.
+- Destination Port Ranges: RDP uses port `3389`, so this will automatically be selected.
+
+- Protocol: We can choose TCP, UDP, ICMP. In the image above, **TCP** was automatically chosen when we selected RDP.
 
 - Action: Firewall rules are either denying traffic or allowing traffic. Here, we are going to choose **Allow**.
 
@@ -317,7 +318,7 @@ Create a rule using the following settings:
 
 - Name/Description: You can name a rule whatever you like, but it is a best practice to name it what it is and describe what it does. Here, we will name it "Allow-RDP" and add the description: "Allow RDP from external IP over port 3389."
 
-![](../1/Images/Security-Group-Demo/Security-Group-Rule.png)
+  ![](../1/Images/Security-Group-Rule1.png)
 
 **Note:** The external IP is not shown in the screen shot.
 
