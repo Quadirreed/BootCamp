@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 ## 12. 3 Student Guide: Load Balancing
 
 ### Class Overview
 
 Today's class will introduce the concepts of load balancing in the cloud.
+=======
+## 12. 3 Student Guide: Load Balancing and Redundancy
+
+### Class Overview
+
+Today's class will introduce the concepts of load balancing and redundant systems in the cloud.
+>>>>>>> 1d2d342d966a26b262ce953701dc681b6316e643
 
 ### Class Objectives
 
@@ -221,6 +229,7 @@ The DVWA VM you set up is intentionally not accessible from the internet at this
 
 - Open your Azure portal and search for "load balancer."
 
+<<<<<<< HEAD
 - We can add the load balancer with the same **+ Create** button that exists on other pages in the Azure portal.
 
 - Select the relevant Resource Group.
@@ -230,6 +239,15 @@ The DVWA VM you set up is intentionally not accessible from the internet at this
 - For Type, select Public.
 
 - For SKU, select Basic.
+=======
+- We can add the load balancer with the same **+ Add** button that exists on other pages in the Azure portal.
+
+- Select the relevant Resource Group.
+
+- Provide a Name
+
+- Select the same resource group as your other resources.
+>>>>>>> 1d2d342d966a26b262ce953701dc681b6316e643
 
 - Select 'Create New' for the Public IP address setting.
 
@@ -239,6 +257,7 @@ The DVWA VM you set up is intentionally not accessible from the internet at this
 
 - For the IP Assignment, choose 'Static'
 
+<<<<<<< HEAD
 
 - For "Add a public IPv6 address", select 'NO'.
 
@@ -258,6 +277,12 @@ The DVWA VM you set up is intentionally not accessible from the internet at this
 - Both VMs should be added to the **backend pool**:
 
   ![](Images/Load-Balancer/PoolSettings.png)
+=======
+- Click on Review + create and confirm.
+
+![](Images/Load-Balancer/CreateLB.png)
+
+>>>>>>> 1d2d342d966a26b262ce953701dc681b6316e643
 
 ### 06. Load Balancing Activity
 
@@ -292,7 +317,11 @@ You will see the same **+ Add** button that you have used for all other resource
 
 You should choose the backend pool and health probe that you created in the previous activity.
 
+<<<<<<< HEAD
 If you are unsure if you need a specific option, you can hover your mouse over the small **`i` in a circle** next to the title of the option to learn more about that option.
+=======
+If you are unsure if you need a specific option, you can hover your mouse over the small **i in a circle** next to the title of the option to learn more about that option.
+>>>>>>> 1d2d342d966a26b262ce953701dc681b6316e643
 
 - Hover your mouse over the **i** next to **Session persistence** to show the text that pops up.
 
@@ -308,6 +337,48 @@ Every time you create a rule, you should evaluate each option to determine if yo
 
 - [Solution Guide: Security Configuration](Activities/09_Security_Configuration/Solved/README.md)
 
+<<<<<<< HEAD
 -------
 
+=======
+### 11.  Redundancy
+
+The next step in our cloud setup is to configure a new VM and place it behind the load balancer.
+
+This provides **redundancy** for our DVWA server. A redundant setup means having a few exact copies of something. If one server goes offline, the other server will continue to host the website.
+
+- Multiple servers are often used in a setup like this. The more servers you use, the more resilient the website.
+
+- Setting up a second server will complete our highly available setup. If the Red Team takes down one server, the second server will step in to serve the website.
+
+- This is the type of setup that many modern websites use to stay up and running at all times.
+
+You should have all the knowledge to complete this task.
+
+The high-level steps are:
+
+1. Get their SSH key from the Ansible container on their jump box.
+
+2. Create a new VM using that key and the same admin name you used on the first VM.
+
+3. Edit their Ansible configuration to include the new VM.
+
+4. Use Ansible to configure the new VM with a DVWA container.
+
+5. Place the new VM behind the load balancer.
+
+
+### 13.  Redundancy Activity
+
+- [Activity File: Redundancy](Activities/13_Redundancy/Unsolved/README.md)
+
+### 14. Review Redundancy Activity
+
+- [Solution Guide: Redundancy](Activities/13_Redundancy/Unsolved/README.md)
+
+-------
+
+### Copyright
+
+>>>>>>> 1d2d342d966a26b262ce953701dc681b6316e643
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

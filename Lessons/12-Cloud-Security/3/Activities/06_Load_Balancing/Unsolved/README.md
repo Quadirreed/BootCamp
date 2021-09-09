@@ -11,6 +11,7 @@
 
 ### Instructions
 
+<<<<<<< HEAD
 Create a new load balancer in your red team resource group and give it a name. 
 
 - Add a frontend IP address.
@@ -27,3 +28,14 @@ Create a new load balancer in your red team resource group and give it a name.
 
 ---
 © 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+=======
+1. Create a new load balancer and assign it a static public IP address.
+	- Give the IP address a unique address name as it will be used to create a URL that maps to the IP address of the load balancer.
+
+2. Navigate to the load balancer settings and install a health probe.
+
+3. Using the load balancer settings, add your VMs to the backend pool.
+
+---
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+>>>>>>> 1d2d342d966a26b262ce953701dc681b6316e643
