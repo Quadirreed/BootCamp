@@ -8,7 +8,7 @@
 
 ### Instructions
 
-1. Add your new VM to the backend pool for your load balancer.
+1. Verify that all of your VMs are added to the backend pool for your load balancer.
 
 2. Verify that the DVWA site is up and running and can be accessed from the web.
 
