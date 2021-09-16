@@ -16,7 +16,7 @@ Throughout this week, you will apply skills and knowledge gained over the past t
 
 - Deploy containers using Ansible and Docker.
 
-- Deploy Filebeat and Metricbeat using Ansible.
+- Deploy Filebeat using Ansible.
 
 - Deploy the ELK stack on a server.
 
@@ -51,7 +51,7 @@ For the majority of demonstrations and activities, the class will use Microsoft 
 This unit covers portions of the following domains on the Security+ exam:
 
 <details>
-    <summary>1.0 Attacks, Threats, and Vulnerabilities, 2.0 Architecture and Design, 3.0 Implementation </summary> 
+    <summary> Click here to view Security+ Domains that apply to this project. </summary> 
  <br>
 
 - Indicators of compromise
@@ -67,10 +67,7 @@ This unit covers portions of the following domains on the Security+ exam:
 
 <br>
 
-For more information about these Security+ domains, refer to the following resource: [Security+ Exam Objectives](
-https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-security-sy0-601-exam-objectives-(2-0).pdf?sfvrsn=8c5889ff_2)
-
-
+For more information about these Security+ domains, refer to the following resource: [Security+ Exam Objectives](https://www.comptia.jp/pdf/Security%2B%20SY0-501%20Exam%20Objectives.pdf)
 
 
 ### Additional Reading and Resources

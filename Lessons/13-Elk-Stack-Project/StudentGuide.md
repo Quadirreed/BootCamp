@@ -330,7 +330,7 @@ Activities involve the following:
 - Create an Ansible playbook that copies this configuration file to the DVWA VMs and then installs Filebeat.
 - Run the playbook to install Filebeat.
 - Confirm that the ELK Stack is receiving logs.
-- Use the same method to install Metricbeat.
+- Install Metricbeat as a bonus activity.
 
 <details>
 <summary> <b> Click here to view the 13.2 Student Guide. </b> </summary>
@@ -353,7 +353,7 @@ If you have not completed all Day 1 activities, you should finish them before co
 
 ### 02. Day 2 Filebeat Installation
 
-- [Day 2 Activity File: Filebeat and Metricbeat Installation](Activities/Stu_Day_2/Unsolved/ReadMe.md) 
+- [Day 2 Activity File: Filebeat Installation](Activities/Stu_Day_2/Unsolved/ReadMe.md) 
 
 - [Day 2 Resources](Activities/Stu_Day_2/Unsolved/Resources/)
 
@@ -366,7 +366,7 @@ If your ELK server is receiving logs, congratulations! You've successfully deplo
 
 - Install and launch Docker containers on a host machine.
 - Configure and deploy an ELK server.
-- Install Filebeat and Metricbeat on any Debian-flavored Linux server.
+- Install Filebeat on any Debian-flavored Linux server.
 
 Even more significant is that you've done all of this through automation with Ansible. Now you can recreate exactly the same setup in minutes.
 
