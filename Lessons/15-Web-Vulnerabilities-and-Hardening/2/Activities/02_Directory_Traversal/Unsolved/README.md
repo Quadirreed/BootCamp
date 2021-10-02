@@ -26,7 +26,8 @@ In this activity, you will continue your role as an Application Security Enginee
 
       ![On the DVWA webpage, a red arrow points at File Inclusion on the left-side menu.](directory_traversal.png)
 
-  - **Note**: If you have any issues accessing this webpage, you might need to repeat the Activity Setup steps from the previous activity: [GitHub: SQL Injection](../../1/Activities/06_SQL_Injection/Unsolved/README.md).
+  - **Note**: If you have any issues accessing this webpage, you might need to repeat the activity setup steps from the SQL Injection Activity in 15.1.
+
 
 ### Instructions 
 

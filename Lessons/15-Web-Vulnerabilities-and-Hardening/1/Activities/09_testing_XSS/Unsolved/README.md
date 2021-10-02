@@ -24,7 +24,8 @@ On the webite from the previous activity, <http://192.168.13.25>, select the **X
 
     ![On a page labeled "Vulnerability: Reflected Cross Site Scripting (XSS)", a user input field asks, "What's your name?"](DVWA_xss_reflected1.png)
 
--  If you have any issues accessing this webpage, repeat the [activity setup steps from the previous activity](../../06_SQL_Injection/Unsolved/README.md).
+- **Note**: If you have any issues accessing this webpage, you might need to repeat the activity setup steps from the SQL Injection Activity in 15.1.
+
 
 ### Instructions
 

@@ -81,7 +81,7 @@ In this activity, you were tasked with testing an intended purpose of an applica
 
         1. `ls`
 
-        2. `cmd`
+        2. `whoami`
         
         3. `pwd`
         

@@ -46,7 +46,7 @@ The lesson slides are available on Google Drive here: [15.2 Slides](https://docs
 
 - **Note**: Editing access is not available for this document. If you or your students wish to modify the slides, create a copy by navigating to **File** > **Make a copy...**
 
-The time tracker is available on Google Drive here: [15.2 Time Tracker](https://docs.google.com/spreadsheets/d/1ge9Nm5c1LfKMxApkFmMU5JNzn5nBMczQlKfAC0yoESs/edit#gid=0).
+The time tracker is available on Google Drive here: [15.2 Time Tracker](https://docs.google.com/spreadsheets/d/1ge9Nm5c1LfKMxApkFmMU5JNzn5nBMczQlKfAC0yoESs/edit#gid=1145703143).
 
 - **Note**: Editing access is not available for this document. If you or your students wish to modify the slides, please create a copy by navigating to **File** > **Make a copy...**
 

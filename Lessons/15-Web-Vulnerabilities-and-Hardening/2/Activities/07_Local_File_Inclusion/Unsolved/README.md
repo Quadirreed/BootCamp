@@ -26,7 +26,8 @@
 
     ![On DVWA, a red arrow points to File Upload on the left-side menu, and in the center of the page, there is an upload form.](local_file_inclusion.png)
 
-- **Note**: If you have any issues accessing this webpage, you might need to repeat the Activity Setup steps from this previous activity: [GitHub: SQL Injection](https://github.com/coding-boot-camp/cybersecurity-v2/blob/15.1_V2_Update/1-Lesson-Plans/15-Web-Vulnerabilities-and-Hardening/1/Activities/06_SQL_Injection/Unsolved/README.md).
+- **Note**: If you have any issues accessing this webpage, you might need to repeat the activity setup steps from the SQL Injection Activity in 15.1.
+
 
 ### Instructions 
 
@@ -123,7 +124,7 @@ The webpage you have accessed represents a page within the Replicants website. T
 
         1. `ls`
 
-        2. `cmd`
+        2. `whoami`
         
         3. `pwd`
         

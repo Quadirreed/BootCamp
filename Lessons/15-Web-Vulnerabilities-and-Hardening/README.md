@@ -7,6 +7,17 @@ You will use your local Vagrant virtual machine for today's activities. Note tha
 
 **Next Week's Lab Environment**: At the end of 15.3, we will set up a new Azure Lab Environment for the Pentesting unit.  
 
+### Security+ Domains
+
+This unit covers portions of the following domains on the Security+ exam:
+
+- 1.0 Attacks, Threats, and Vulnerabilities 
+- 2.0 Architecture and Design 
+- 3.0 Implementation
+
+For more information about these Security+ domains, refer to the following resource: [Security+ Exam Objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-security-sy0-601-exam-objectives-(2-0).pdf?sfvrsn=8c5889ff_2)
+
+
 
 ### Unit Objectives 
 
@@ -47,6 +58,9 @@ You will use your local Vagrant virtual machine for today's activities. Note tha
 - Identify session management vulnerabilities using the Burp Suite Repeater function.
 
 - Conduct a brute force attack against a web application login page with the Burp Intruder function.
+
+
+
 
 ___
 

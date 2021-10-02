@@ -22,7 +22,7 @@
 
   - Alternatively, access the webpage directly by accessing this page: <http://192.168.13.25/vulnerabilities/weak_id/>.
 
-    - **Note**: If you have any issues accessing this webpage, you might need to repeat the Activity Setup steps from the previous activity: [GitHub: SQL Injection Activity](https://github.com/coding-boot-camp/cybersecurity-v2/blob/15.1_V2_Update/1-Lesson-Plans/15-Web-Vulnerabilities-and-Hardening/1/Activities/06_SQL_Injection/Unsolved/README.md).
+    - **Note**: If you have any issues accessing this webpage, you might need to repeat the activity setup steps from the SQL Injection Activity in 15.1.
 
   - The page will look like the following image:
 

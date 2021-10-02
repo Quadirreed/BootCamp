@@ -30,7 +30,7 @@
 
     ![On the DVWA webpage, login fields ask for a username and password.](brute.png)
 
-  - **NOTE**: If you have any issues accessing this webpage, you might need to repeat the Activity Setup steps here: [GitHub: SQL Injection Activity](https://github.com/coding-boot-camp/cybersecurity-v2/blob/15.1_V2_Update/1-Lesson-Plans/15-Web-Vulnerabilities-and-Hardening/1/Activities/06_SQL_Injection/Unsolved/README.md).
+  - **Note**: If you have any issues accessing this webpage, you might need to repeat the activity setup steps from the SQL Injection Activity in 15.1.
 
 ### Instructions 
 
